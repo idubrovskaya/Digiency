@@ -1,0 +1,59 @@
+html {
+  font-family: $Poppins, sans-serif;
+  line-height: $baseLineHeight;
+
+  @media only screen and (min-width: $smallBreakpoint) {
+    font-size: 15px;
+  }
+
+  @media only screen and (min-width: $largeBreakpoint) {
+    font-size: $baseFontSize;
+  }
+}
+
+// Header Styles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: $headingFontSize;
+  line-height: $headingLineHeight;
+  font-weight: 600;
+  color: $black;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #373737;
+  padding: 10px 0;
+}
+
+p {
+  font-size: $baseFontSize;
+  font-weight: 400px;
+  line-height: $baseLineHeight;
+  color: $gray;
+}
+
+ul {
+  color: $black;
+}

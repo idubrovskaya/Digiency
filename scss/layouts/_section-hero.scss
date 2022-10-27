@@ -1,0 +1,22 @@
+.main__title {
+  h1 {
+    color: $black;
+    font-size: $titleFontSize;
+    line-height: $titleLineHeight;
+    margin-bottom: $mb;
+    font-weight: 700;
+  }
+
+  h2 {
+    color: $black;
+    font-size: $headingFontSize;
+    line-height: $headingLineHeight;
+    margin-bottom: $mb;
+  }
+
+  p {
+    color: $gray;
+    font-weight: 400px;
+    margin-bottom: $mb + 12px;
+  }
+}

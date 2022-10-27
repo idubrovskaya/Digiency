@@ -1,0 +1,14 @@
+// Container styles
+.container {
+  display: block;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+}
+
+.container__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 115px 0;
+}

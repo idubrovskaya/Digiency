@@ -1,0 +1,65 @@
+.section__review {
+  display: flex;
+  position: relative;
+  &__block {
+    position: relative;
+    background-color: $white;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 25px;
+    margin-right: 30px;
+    &__image {
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.client__profile {
+  display: flex;
+  align-items: center;
+}
+
+.client_name p {
+  margin: 0 15px;
+  font-weight: 300;
+  font-size: 12.8px;
+  line-height: 19px;
+}
+
+.client_name--red {
+  margin: 0 15px;
+
+  color: $red;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.quotes {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+}
+
+.left {
+  position: absolute;
+  left: -8%;
+  top: 40%;
+  cursor: pointer;
+}
+
+.right {
+  position: absolute;
+  right: -5%;
+  top: 40%;
+  cursor: pointer;
+}
+
+.left:hover svg path,
+.right:hover svg path {
+  fill: $red;
+}
+.left:hover svg circle,
+.right:hover svg circle {
+  stroke: $red;
+}

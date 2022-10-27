@@ -1,0 +1,38 @@
+button {
+  background-color: $red;
+  color: $white;
+  font-size: $buttonFontSize;
+  line-height: $buttonLineHeight;
+  border-radius: 5px;
+  border-color: transparent;
+  filter: drop-shadow(4px 5px 15px rgba(255, 83, 0, 0.1));
+  cursor: pointer;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.header_button {
+  background-color: transparent;
+  color: $black;
+  border: 1px solid $gray;
+  width: 135px;
+}
+
+.buttons__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.buttons__row button {
+  background-color: transparent;
+  border-color: transparent;
+  color: $gray;
+  margin-bottom: 30px;
+}
+
+.buttons__row button:hover {
+  background-color: $red;
+  color: $white;
+  border-radius: 10px;
+}

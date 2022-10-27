@@ -1,0 +1,35 @@
+.header {
+  position: absolute;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.menu li a {
+  position: relative;
+  color: $black;
+  font-size: $buttonFontSize;
+  font-weight: 500;
+  line-height: $buttonLineHeight;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.menu li a:hover {
+  color: $red;
+}
+
+.logo {
+  line-height: 0.5em;
+}
