@@ -281,7 +281,7 @@ to layouts.
 */
 footer {
   padding: 2em;
-  background: url(../../img/footer.png);
+  background: url(../img/footer.png);
 }
 .company__information {
   display: flex;
